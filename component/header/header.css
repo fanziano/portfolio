@@ -1,0 +1,134 @@
+.headerContainer {
+    align-items: center;
+    background-color: #0000ff;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+}
+
+.logo {
+    height: 70px;
+    width: 90px;
+}
+
+@media (min-width: 796px) {
+    .headerContainer {
+        height: 140px;
+    }
+    .logo {
+        height: 100px;
+        margin: 10px auto;
+        width: 130px;
+    }
+}
+
+.headerClick {
+    height: 100%;
+}
+
+.headerClick__nav {
+    display: none;
+}
+
+/*  .headerClick_nav-item {}  */
+
+@media (min-width: 796px) {
+    .headerClick {
+        align-items: center;
+        display: flex;
+    }
+    .headerClick__nav {
+        align-items: center;
+        display: flex;
+    }
+    .headerClick__nav-item {
+        color: white;
+        font-size: 24px;
+        padding: 15px 40px;
+        text-decoration: none;
+    }
+    .headerClick__nav-item:hover {
+        color: teal;  
+    }   
+}
+
+.headerClick__ham {
+    background-color: #0000ff;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.headerClick__ham-line {
+    background-color: white;
+    height: 7px;
+    width: 49px;
+}
+
+@media (min-width: 796px) {
+    .headerClick__ham {
+        display: none;
+    }
+    .headerClick__ham-line {
+        display: none;
+    }
+
+}
+
+.headerClick__pop {
+    background-color: #0000ffe0;
+    bottom: 0;
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+}
+
+.headerClick__pop-content {
+    margin: 0 auto;
+    text-align: right;
+    
+}
+
+.headerClick__pop-button {
+    background-color: #0000ffe0;
+    border: none;
+    color: #FFF;
+    font-size: 50px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.headerClick__pop-button:hover {
+    color: teal;
+    transition: 0.3s;
+}
+
+.headerClick__pop-content-links {
+    margin: 0px auto;
+    padding: 130px;
+}
+
+.headerClick__pop-content-links a {
+    color: #FFF;
+    display: block;
+    font-size: 50px;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.headerClick__pop-content-links a:hover {
+    color: teal;
+    transition: 0.3s;  
+}
+
+

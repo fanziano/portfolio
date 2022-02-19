@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./component/header/header.css">
+    <script defer src="./component/header/header.js"></script>
+
+    <link rel="stylesheet" href="./component/contact/contact.css">
+    <script defer src="./component/contact/contact.js"></script>
+
+    <link rel="stylesheet" href="./component/footer/footer.css">
+    <script defer src="./component/footer/footer.js"></script>
+    
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <section class="welcome">
+        <div class="welcome__container">
+            <h2 class="welcome__myGreeting"></h2>
+            <h3 class="welcome__myName"></h3>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="intro__container">
+            <h2 class="intro__myTitle"></h2>
+            <p class="intro__myText"></p>
+        </div>
+        <div class="intro__myPic">
+            <img src="" alt="" class="manpic">
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="services__container">
+            <h2 class="services__myServices-title">Servicios</h2>
+
+            <div class="services__myServices-template">
+            <template id="services__myTemplate">
+                <div class="services__myTemplate-container">
+                    <div class="services__myTemplate-content">
+                        <img src="" alt="" class="services__myTemplate-pic">
+                        <h3 class="services__myTemplate-title"></h3>
+                        <p class="services__myTemplate-text"></p>
+                    </div>
+                </div>
+            </template>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2 class="contact__contactUs">Escribime</h2>
+        <div class="contactForm"></div>
+    </section>
+
+    <footer class="footer"></footer>
+    
+</body>
+</html>
+
+

@@ -1,0 +1,14 @@
+
+/* HEADING */ 
+@media (min-width: 796px) {
+    .heading {
+        background-color: #008080;
+    }
+}
+
+/* PORTFOLIO */
+.iHave__template-link {
+    color: #008080;
+    font-size: 18px;
+    text-decoration: none;
+}

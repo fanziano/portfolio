@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";  
+}
+
+.contact {
+    background-color: #000;
+    
+}
+
+@media (min-width: 796px) {
+    .contact {
+        background-color: #0000ff;
+    }
+}

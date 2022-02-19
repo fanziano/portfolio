@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";  
+}
+
+
+/* HEADING */ 
+.heading {
+    background: #000;
+    color: #FFF;
+    font-size: 45px;
+    margin: 0 auto;
+    padding: 70px 0 0 0;
+    text-align: center;
+    
+}
+
+@media (min-width: 796px) {
+    .heading {
+    background-color: #1e90ff;
+    display: flex;
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    }
+}
+
+/* SERVICIOS / PORTFOLIO */
+
+.iDo,
+.iHave {
+    background-color: #000;
+    color: #FFF;
+    padding: 100px 0 20px 0;
+}
+  
+@media (min-width: 796px) {
+    .iDo__content,
+    .iHave__content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+}
+
+.iDo__template-container,
+.iHave__template-container {
+    display: column; 
+    margin: 0 auto;
+    margin-bottom: 80px;
+    max-width: 360px;
+    padding: 0 15px 0 15px; 
+}
+  
+.iDo__template-content,
+.iHave__template-content {
+    display: column;
+    justify-content: center;
+    text-align: center;
+}
+  
+.iDo__template-pic,
+.iHave__template-pic {
+    display: column;
+    height: 250px;
+    margin: 0;
+    object-fit: cover;
+    width: 100%;
+}
+  
+.iDo__template-title,
+.iHave__template-title {
+    font-size: 30px;
+    margin: 0;
+}
+  
+.iDo__template-text,
+.iDo__template-text {
+    font-size: 20px;
+    margin-top: 10px 0;
+}

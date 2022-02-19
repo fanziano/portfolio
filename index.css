@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";  
+}
+
+/* HEADER COMPONENT */
+
+
+/* WELCOME */
+.welcome__container {
+    align-items:center;
+	background-color: #4169e1;	
+    display: flex;
+    padding-top: 190px;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 200px;
+}
+
+.welcome__myGreeting,
+.welcome__myName {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+}
+/* INTRO */
+
+.intro {
+    background-color: #000;
+    color: #FFF;
+}
+
+.intro__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro__myTitle {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    padding: 75px 50px 45px 50px;
+}
+
+.intro__myText {
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0;
+    padding: 0 32px 75px;
+    text-align: center;
+}
+
+.intro__myPic {
+    display: none;
+}
+
+@media (min-width: 796px) {
+    .intro {
+        background-color: #FFF;
+        color: #000;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .intro__myTitle {
+        font-size: 30px;
+    }
+    .intro__myText {
+        text-align: start;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    .intro__myPic {
+        display: block;
+       
+    }
+    .manpic {
+        height: 400px;  
+        width: 500px;
+    }
+}
+
+/* SERVICES */
+
+.services__container {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0px 45px 60px 45px;
+    text-align: center;
+}
+
+.services__myServices-title {
+    font-size: 35px;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.services__myTemplate-content {
+    margin-top: 50px;
+}
+
+.services__myTemplate-pic {
+    height: 180px;
+    width: 180px;
+}
+
+.services__myTemplate-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+    padding: 20px 0 15px 0;
+}
+
+.services__myTemplate-text {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 0 10px;
+}
+
+@media (min-width: 769px) {
+    .services__myServices-template {
+        display: flex;
+        flex-direction: row;
+    }
+    .services__myTemplate-text {
+        margin: 0 30px;
+    }
+}
+
+/* CONTACT COMPONENT */
+
+/* FOOTER COMPONENT */

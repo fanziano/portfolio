@@ -1,0 +1,72 @@
+.contact {
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins";
+    padding: 70px 70px;
+}
+  
+.contact__contactUs {
+    font-size: 30px;
+    text-align: center;
+}
+  
+.contact__contactUs,
+  .contact__label,
+  .contact__input,
+  .contact__button {
+    font-family: "Poppins";
+}
+  
+.contact__container {
+    display: flex;
+    flex-direction: column;
+}
+  
+.contact__input {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+  
+#mensaje {
+    height: 120px;
+}
+
+@media (min-width: 796px) {
+    .contact {
+        display: grid;
+        grid-template-columns: 20% 29% 50% 25% 25%;
+        height: 80vh;
+        padding: 0px;
+    }
+    .contact__container {
+        grid-column: 3;
+        margin-top: 120px;
+        height: 50px;
+        width: 320px;
+    }
+    .contact__contactUs {
+        font-size: 40px;
+        grid-column: 2;
+        margin-top: 130px; 
+    
+    }
+}
+  
+.contact__button {
+    background-color: #696969;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Poppins";
+    height: 40px;
+    width: 100%;
+}
+  
+.contact__button:hover {
+    color: #808080; 
+}
+
