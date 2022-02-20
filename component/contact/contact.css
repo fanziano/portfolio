@@ -39,7 +39,7 @@
     .contact {
         display: grid;
         grid-template-columns: 20% 29% 50% 25% 25%;
-        height: 80vh;
+        height: 100vh;
         padding: 0px;
     }
     .contact__container {
